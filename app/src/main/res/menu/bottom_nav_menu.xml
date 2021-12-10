@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/roll"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/magic"
         android:title="@string/roll" />
 
     <item
         android:id="@+id/about"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@drawable/info"
         android:title="@string/about" />
 
 

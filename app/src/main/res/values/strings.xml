@@ -1,11 +1,13 @@
 <resources>
-    <string name="app_name">MyTestFragment</string>
+    <string name="app_name">Magic Time</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="roll">ROLL</string>
-    <string name="rollText">You can try click button</string>
+    <string name="roll">Magic Time</string>
+    <string name="rollText">Получите предсказание на день\n Нажмите на кнопку</string>
     <string name="about">About</string>
     <string name="aboutText">Created by Natalya Myagkova</string>
-    <string name="rollButton">Random</string>
+    <string name="rollButton">Предсказать!</string>
+    <string name="instagramUrl">Перейти в Instagram</string>
+    <string name="developers">О разработчике</string>
 
 
 </resources>
