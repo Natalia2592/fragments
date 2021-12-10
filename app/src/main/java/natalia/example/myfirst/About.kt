@@ -11,9 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-
 class About : Fragment() {
-
     lateinit var developersRecyclerView: RecyclerView
     lateinit var showWebSiteButton: Button
 

@@ -12,19 +12,13 @@ private val ABOUT_FRAGMENT = About().javaClass.name
 
 
 class MainActivity : AppCompatActivity() {
-
     lateinit var bottomNavigationView: BottomNavigationView
-
-    override fun onCreate(savedInstanceState: Bundle?)
-    {
-
+    override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         bottomNavigationView = findViewById(R.id.nav_view)
-
         bottomNavigationView.setOnItemSelectedListener { item ->
             var fragment: Fragment? = null
             when (item.itemId) {
@@ -61,7 +55,6 @@ class MainActivity : AppCompatActivity() {
         )
 
     }
-
 
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager

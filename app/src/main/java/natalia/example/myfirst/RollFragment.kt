@@ -12,8 +12,6 @@ import kotlin.random.Random
 private const val LAST_ROLLED_MAGIC = "magic"
 
 class RollFragment : Fragment() {
-
-
     lateinit var textV: TextView
     lateinit var rollButton: Button
     var magicTexts: List<String> = listOf("")
@@ -28,7 +26,6 @@ class RollFragment : Fragment() {
 
         if (savedInstanceState != null)
             textV.text = savedInstanceState.getString(LAST_ROLLED_MAGIC)
-
 
         magicTexts = listOf(
             "Вам пора отдохнуть",
@@ -45,8 +42,6 @@ class RollFragment : Fragment() {
             "Пришло время действовать",
             "События полностью вне Вашего контроля"
         )
-
-
 
         rollButton.setOnClickListener {
 
